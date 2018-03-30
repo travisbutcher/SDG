@@ -32,7 +32,7 @@
 					"type": "string"
 				}, {
 					"name": "unLinkID",
-					"type": "integer"
+					"type": "string"
 				}, {
 					"name": "M49_Desc",
 					"type": "string"
