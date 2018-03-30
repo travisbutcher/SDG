@@ -11,31 +11,38 @@
       "schema": {
         "fields": [
             {
-				"name": "ISO3",
+				"name": "OBJECTID",
+				"type": "integer"
+			},
+            {
+				"name": "ISO3CD",
 				"type": "string"
 			},{
-				"name": "Roman",
+				"name": "ROMNAM",
 				"type": "string"
 			},
                 {
-				"name": "Country_Code",
+				"name": "CONTCD",
 				"type": "string"
 			},
                   {
-				"name": "Map_Color_Code",
+				"name": "MAPCLR",
 				"type": "string"
 			},
                 {
-				"name": "STS_Code",
+				"name": "STSCOD",
 				"type": "string"
 			}, {
-				"name": "UN_Link",
+				"name": "unLinkID",
 				"type": "integer"
 			}, {
-				"name": "M49_Description",
+				"name": "M49_Desc",
 				"type": "string"
 			},{
-				"name": "M49_Code",
+				"name": "M49",
+				"type": "string"
+			},{
+				"name": "ORIG_FID",
 				"type": "string"
 			}
         ]
