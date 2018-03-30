@@ -1,9 +1,9 @@
 {
-	"name": "SDG_M49",
+	"name": "sdg-m49-centroids",
 	"title": "SDG M49 Country Points",
 	"description": "Country Centroids for the SDG Member States",
 	"resources": [{
-		"name": "SDG_M49",
+		"name": "sdg-m49-centroids",
 		"path": "data/SDG_M49.geojson",
 		"format": "geojson",
 		"mediatype": "application/json",
