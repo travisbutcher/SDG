@@ -1,0 +1,45 @@
+{
+  "name": "geo-countries",
+  "title": "SDG M49 Country Points",
+  "description": "Country Centroids for the SDG Member States",
+  "resources": [
+    {
+      "name": "SDG_M49",
+      "path": "data/SDG_M49.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "schema": {
+        "fields": [
+            {
+				"name": "ISO3",
+				"type": "string"
+			},{
+				"name": "Roman",
+				"type": "string"
+			},
+                {
+				"name": "Country_Code",
+				"type": "string"
+			},
+                  {
+				"name": "Map_Color_Code",
+				"type": "string"
+			},
+                {
+				"name": "STS_Code",
+				"type": "string"
+			}, {
+				"name": "UN_Link",
+				"type": "integer"
+			}, {
+				"name": "M49_Description",
+				"type": "string"
+			},{
+				"name": "M49_Code",
+				"type": "string"
+			}
+        ]
+      }
+    }
+  ]
+}
