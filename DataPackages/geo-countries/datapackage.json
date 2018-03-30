@@ -1,52 +1,49 @@
 {
-  "name": "geo-countries",
-  "title": "SDG M49 Country Points",
-  "description": "Country Centroids for the SDG Member States",
-  "resources": [
-    {
-      "name": "SDG_M49",
-      "path": "data/SDG_M49.geojson",
-      "format": "geojson",
-      "mediatype": "application/json",
-      "schema": {
-        "fields": [
-            {
-				"name": "OBJECTID",
-				"type": "integer"
-			},
-            {
-				"name": "ISO3CD",
-				"type": "string"
-			},{
-				"name": "ROMNAM",
-				"type": "string"
-			},
-                {
-				"name": "CONTCD",
-				"type": "string"
-			},
-                  {
-				"name": "MAPCLR",
-				"type": "string"
-			},
-                {
-				"name": "STSCOD",
-				"type": "string"
-			}, {
-				"name": "unLinkID",
-				"type": "integer"
-			}, {
-				"name": "M49_Desc",
-				"type": "string"
-			},{
-				"name": "M49",
-				"type": "string"
-			},{
-				"name": "ORIG_FID",
-				"type": "integer"
-			}
-        ]
-      }
-    }
-  ]
+	"name": "geo-countries",
+	"title": "SDG M49 Country Points",
+	"description": "Country Centroids for the SDG Member States",
+	"resources": [{
+		"name": "SDG_M49",
+		"path": "data/SDG_M49.geojson",
+		"format": "geojson",
+		"mediatype": "application/json",
+		"schema": {
+			"fields": [{
+					"name": "OBJECTID",
+					"type": "integer"
+				},
+				{
+					"name": "ISO3CD",
+					"type": "string"
+				}, {
+					"name": "ROMNAM",
+					"type": "string"
+				},
+				{
+					"name": "CONTCD",
+					"type": "string"
+				},
+				{
+					"name": "MAPCLR",
+					"type": "string"
+				},
+				{
+					"name": "STSCOD",
+					"type": "string"
+				}, {
+					"name": "unLinkID",
+					"type": "integer"
+				}, {
+					"name": "M49_Desc",
+					"type": "string"
+				}, {
+					"name": "M49",
+					"type": "string"
+				}, {
+					"name": "ORIG_FID",
+					"type": "integer"
+				}
+			]
+		}
+	}]
 }
