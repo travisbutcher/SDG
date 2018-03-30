@@ -31,7 +31,7 @@
 			},
                 {
 				"name": "STSCOD",
-				"type": "string"
+				"type": "integer"
 			}, {
 				"name": "unLinkID",
 				"type": "integer"
@@ -40,10 +40,10 @@
 				"type": "string"
 			},{
 				"name": "M49",
-				"type": "string"
+				"type": "integer"
 			},{
 				"name": "ORIG_FID",
-				"type": "string"
+				"type": "integer"
 			}
         ]
       }
